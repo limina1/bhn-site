@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-ink-950 text-slate-200;
+  }
+
+  ::selection {
+    background: rgba(247, 147, 26, 0.22);
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-card transition-colors;
+  }
+
+  .dark .card {
+    @apply border-white/10 bg-ink-900 shadow-none;
+  }
+
+  .card-muted {
+    @apply rounded-2xl border border-slate-200/70 bg-slate-50/70;
+  }
+
+  .dark .card-muted {
+    @apply border-white/10 bg-white/[0.03];
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 shadow-sm;
+  }
+
+  .dark .chip {
+    @apply border-white/10 bg-white/5 text-slate-300;
+  }
+
+  .link {
+    @apply text-slate-900 underline decoration-slate-300 underline-offset-4 transition-colors hover:decoration-brand-500;
+  }
+
+  .dark .link {
+    @apply text-slate-100 decoration-white/25 hover:decoration-brand-400;
+  }
+
+  .surface {
+    @apply rounded-2xl border border-slate-200 bg-white/70 shadow-soft backdrop-blur;
+  }
+
+  .dark .surface {
+    @apply border-white/10 bg-white/[0.04] shadow-none;
+  }
+
+  /* Soft pill used inside cards (categories, payment notes) */
+  .pill {
+    @apply inline-flex items-center rounded-full bg-white px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200;
+  }
+
+  .dark .pill {
+    @apply bg-white/[0.06] text-slate-200 ring-white/10;
+  }
+
+  /* Thin gradient accent strip for the top of feature cards */
+  .accent-bar {
+    @apply h-1 w-full bg-gradient-to-r from-brand-500 via-brand-400 to-accent-500;
+  }
+}
+
+@layer utilities {
+  /* Subtle dotted texture for decorative panels */
+  .dot-grid {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /* Animated sheen for the headline gradient text */
+  .text-gradient-brand {
+    @apply bg-gradient-to-r from-brand-500 via-brand-500 to-accent-500 bg-clip-text text-transparent;
+  }
+}
