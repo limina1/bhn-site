@@ -63,19 +63,17 @@ export default function EducationPage() {
             <div className="rounded-2xl border border-brand-200 bg-gradient-to-br from-brand-50 to-white p-6 shadow-card dark:border-brand-400/20 dark:from-brand-500/10 dark:to-transparent sm:p-8">
               <Badge tone="brand">Lead education partner</Badge>
               <h2 className="mt-3 text-xl font-semibold tracking-tight text-slate-900 dark:text-white sm:text-2xl">
-                Dreamgrad Academy (DGA)
+                Why Bitcoin and health? Check out DGA.
               </h2>
               <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                Start here. Beginner-friendly Bitcoin education and personal
-                development. It&rsquo;s the clearest on-ramp to the
-                &ldquo;why&rdquo; behind {BRAND.shortName}.
+                Dream Grad Academy (DGA) is our lead education partner:
+                beginner-friendly Bitcoin education and personal development. It&rsquo;s
+                the clearest on-ramp to the &ldquo;why&rdquo; behind {BRAND.shortName}.
+                Want to learn more about the Bitcoin-health connection? Start here.
               </p>
-              <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-5">
                 <ButtonLink href={BRAND.dgaUrl} target="_blank" rel="noreferrer">
-                  Visit Dreamgrad Academy →
-                </ButtonLink>
-                <ButtonLink href="/community" variant="secondary">
-                  Discuss it
+                  Visit Dream Grad Academy →
                 </ButtonLink>
               </div>
             </div>
@@ -98,13 +96,13 @@ export default function EducationPage() {
             <FadeIn delayMs={40}>
               <VideoPlaceholder
                 label="Health autonomy and informed consent"
-                source="Dr. Andrew Kaufman · YouTube"
+                source="Dr. Satoshi · YouTube"
               />
             </FadeIn>
             <FadeIn delayMs={90}>
               <VideoPlaceholder
-                label="Terrain, prevention, and long-term thinking"
-                source="Dr. Andrew Kaufman · YouTube"
+                label="Sound money, sound body: the health case for Bitcoin"
+                source="Dr. Satoshi · YouTube"
               />
             </FadeIn>
             <FadeIn delayMs={140}>

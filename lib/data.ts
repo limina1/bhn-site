@@ -44,10 +44,9 @@ export const DIRECTORY_LISTINGS: DirectoryListing[] = [
     slug: "zaprana",
     type: "Organization / Tool",
     name: "Zaprana",
-    headline:
-      "A Bitcoin-friendly wellness brand. Shown here as a sponsored listing so you can see how sponsors appear alongside the rest.",
+    headline: "A space for well-being and sovereignty. Our sponsor, shown here as a real listing.",
     sponsored: true,
-    externalUrl: "https://zaprana.com/",
+    externalUrl: "https://zaprana.life/creator/selfishcollective",
     categories: ["Bitcoin Health Tools", "Wellness Professionals"],
     tags: ["Bitcoin-friendly"],
     location: "Remote",
@@ -55,7 +54,7 @@ export const DIRECTORY_LISTINGS: DirectoryListing[] = [
     paymentBadge: "Bitcoin-friendly",
     availability: "Open access",
     verifiedSignals: ["Sponsor"],
-    bio: "Sponsored results are clearly labelled, still obey the same filters as everything else, and are pinned to the top. They are never mixed in silently.",
+    bio: "Zaprana is a space for well-being and sovereignty: communities, articles, and creators around holistic health. Sponsored results are clearly labelled, still obey the same filters as everything else, and are pinned to the top. They are never mixed in silently.",
     services: [
       {
         name: "Sponsored placement",
@@ -63,7 +62,7 @@ export const DIRECTORY_LISTINGS: DirectoryListing[] = [
         duration: "n/a"
       }
     ],
-    links: [{ label: "Visit zaprana.com", href: "https://zaprana.com/" }],
+    links: [{ label: "Visit Zaprana", href: "https://zaprana.life/creator/selfishcollective" }],
     reviews: []
   },
   {

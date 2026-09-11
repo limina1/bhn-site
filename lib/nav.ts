@@ -10,6 +10,7 @@ export type NavItem = {
 export const NAV: NavItem[] = [
   { href: "/", label: "Home" },
   { href: "/directory", label: "Directory" },
+  { href: "/education", label: "Education" },
   {
     href: "/community",
     label: "Discussions",
@@ -21,7 +22,6 @@ export const NAV: NavItem[] = [
       { href: "/community", label: "All discussions →" }
     ]
   },
-  { href: "/education", label: "Education" },
   {
     href: "/about",
     label: "About",
@@ -37,8 +37,8 @@ export const NAV: NavItem[] = [
 export const FOOTER_LINKS: NavChild[] = [
   { href: "/", label: "Home" },
   { href: "/directory", label: "Directory" },
-  { href: "/community", label: "Discussions" },
   { href: "/education", label: "Education" },
+  { href: "/community", label: "Discussions" },
   { href: "/about", label: "About" },
   { href: "/reviews", label: "Reviews" },
   { href: "/disclaimer", label: "Disclaimer" }

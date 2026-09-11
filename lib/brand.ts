@@ -10,15 +10,16 @@ export const BRAND = {
   nostrUrl: "https://primal.net/",
   contactEmail: "hello@bitcoinhealth.network",
 
-  // --- Partners & sponsors (URLs are placeholders; swap for the real ones) ---
-  // Dreamgrad Academy (DGA), lead education partner.
+  // --- Partners & sponsors ---
+  // Dream Grad Academy (DGA), lead education partner.
   dgaUrl: "https://dreamgradacademy.com/",
   dreamgradUrl: "https://dreamgradacademy.com/", // legacy alias
   // Zaprana: sponsor. Appears as a sponsored box and a sponsored directory listing.
-  zapranaUrl: "https://zaprana.com/",
+  zapranaUrl: "https://zaprana.life/creator/selfishcollective",
+  zapranaTagline: "A space for well-being and sovereignty.",
   // Reference YouTube channel surfaced on the education page (no real embeds yet).
   youtube: {
-    kaufman: "https://www.youtube.com/@RealAndrewKaufman"
+    drSatoshi: "https://www.youtube.com/results?search_query=Dr.+Satoshi"
   },
 
   // --- Nostr / Pyramid community ---

@@ -71,7 +71,7 @@ export function SiteFooter() {
                 className="inline-flex items-center gap-2 text-sm font-medium text-nostr-700 underline decoration-nostr-200 underline-offset-4 transition-colors hover:decoration-nostr-500 dark:text-nostr-300 dark:decoration-nostr-400/40"
               >
                 <IconNostr className="h-4 w-4" />
-                View discussion
+                Join community
               </Link>
               <Link
                 href={`mailto:${BRAND.contactEmail}`}

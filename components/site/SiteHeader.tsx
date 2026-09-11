@@ -112,7 +112,7 @@ export function SiteHeader() {
           <ThemeToggle />
           <ButtonLink href="/community" variant="nostr">
             <IconNostr className="h-4 w-4" />
-            <span className="hidden sm:inline">View discussion</span>
+            <span className="hidden sm:inline">Join community</span>
             <span className="sm:hidden">Discuss</span>
           </ButtonLink>
         </div>

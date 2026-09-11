@@ -22,7 +22,7 @@ export default function HomePage() {
             </div>
 
             <h1 className="mt-5 text-4xl font-semibold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
-              Sovereign health and wellness,{" "}
+              A sovereign health community and wellness,{" "}
               <span className="bg-gradient-to-r from-brand-500 via-brand-500 to-accent-500 bg-clip-text text-transparent">
                 all in one place.
               </span>
@@ -41,7 +41,7 @@ export default function HomePage() {
               </ButtonLink>
               <ButtonLink href="/community" variant="nostr" size="lg">
                 <IconNostr className="h-5 w-5" />
-                View discussion
+                Join community
               </ButtonLink>
             </div>
 
@@ -142,7 +142,7 @@ export default function HomePage() {
             </div>
           </div>
           <span className="text-sm text-slate-600 dark:text-slate-300">
-            Placeholder sponsor slot. Visit zaprana.com{" "}
+            {BRAND.zapranaTagline} Visit Zaprana{" "}
             <span aria-hidden="true">&rarr;</span>
           </span>
         </a>
@@ -289,7 +289,7 @@ export default function HomePage() {
                     className="w-full"
                   >
                     <IconNostr className="h-5 w-5" />
-                    View discussion
+                    Join community
                   </ButtonLink>
                   <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
                     Invite-only, member-approved. Introduce yourself, suggest categories, or
@@ -540,7 +540,7 @@ export default function HomePage() {
                       </ButtonLink>
                       <ButtonLink href="/community" variant="nostr" size="lg">
                         <IconNostr className="h-5 w-5" />
-                        View discussion
+                        Join community
                       </ButtonLink>
                     </div>
                   </div>
@@ -574,6 +574,27 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
+            </div>
+          </FadeIn>
+        </div>
+      </Section>
+
+      <Section className="border-t border-slate-200/70 bg-slate-50/40 dark:border-white/10 dark:bg-white/[0.02]">
+        <div className="container-page">
+          <FadeIn>
+            <div className="flex flex-col items-center gap-4 rounded-2xl border border-slate-200 bg-white p-8 text-center dark:border-white/10 dark:bg-white/[0.03] sm:flex-row sm:justify-between sm:text-left">
+              <div>
+                <div className="text-base font-semibold text-slate-900 dark:text-white">
+                  Would you like to partner with us?
+                </div>
+                <p className="mt-1 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                  We&rsquo;re open to aligned providers, educators, and sponsors who share the
+                  mission.
+                </p>
+              </div>
+              <ButtonLink href={`mailto:${BRAND.contactEmail}`} variant="secondary">
+                Get in touch
+              </ButtonLink>
             </div>
           </FadeIn>
         </div>

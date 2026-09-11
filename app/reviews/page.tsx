@@ -81,7 +81,7 @@ export default function ReviewsPage() {
               Browse the directory
             </ButtonLink>
             <ButtonLink href="/community" variant="nostr" size="lg">
-              View discussion
+              Join community
             </ButtonLink>
           </div>
         </div>

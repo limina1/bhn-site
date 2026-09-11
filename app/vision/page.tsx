@@ -53,7 +53,7 @@ export default function VisionPage() {
                     Explore the network
                   </ButtonLink>
                   <ButtonLink href="/community" variant="nostr" size="lg">
-                    View discussion
+                    Join community
                   </ButtonLink>
                 </div>
               </div>

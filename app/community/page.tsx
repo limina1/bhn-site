@@ -73,13 +73,11 @@ export default function CommunityPage() {
             />
           </FadeIn>
 
-          <div className="mt-8 grid gap-6 lg:grid-cols-12 lg:items-start">
-            <div className="lg:col-span-5">
-              <CommunityJoin />
-            </div>
-            <div className="lg:col-span-7">
-              <DiscussionIndex />
-            </div>
+          <div className="mt-8">
+            <CommunityJoin />
+          </div>
+          <div className="mt-8">
+            <DiscussionIndex />
           </div>
 
           <p className="mt-6 text-sm text-slate-500 dark:text-slate-400">
