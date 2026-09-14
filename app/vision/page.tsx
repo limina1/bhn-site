@@ -5,6 +5,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Card, CardText, CardTitle } from "@/components/ui/Card";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Section, SectionHeading } from "@/components/ui/Section";
+import { IconNostr } from "@/components/ui/Icon";
 import { BRAND } from "@/lib/brand";
 
 export const metadata: Metadata = {
@@ -53,6 +54,7 @@ export default function VisionPage() {
                     Explore the network
                   </ButtonLink>
                   <ButtonLink href="/community" variant="nostr" size="lg">
+                    <IconNostr className="h-5 w-5" />
                     Join community
                   </ButtonLink>
                 </div>

@@ -32,18 +32,19 @@ export function LogoMark({ className, ...props }: SVGProps<SVGSVGElement>) {
         />
       ))}
       <circle cx="50" cy="50" r="17" fill="#f7931a" />
-      <text
-        x="50"
-        y="51"
-        textAnchor="middle"
-        dominantBaseline="central"
-        fontSize="19"
-        fontWeight="700"
-        fontFamily="Arial, Helvetica, sans-serif"
-        fill="#ffffff"
-      >
-        ₿
-      </text>
+      {/* hand-drawn ₿ (vector, not a text glyph, so it renders identically everywhere) */}
+      <g transform="translate(29.3 35)">
+        <path
+          d="M17.4 9.6h3.1c1.9 0 3.2 1 3.2 2.7 0 1.2-.7 2-1.7 2.3 1.3.3 2.1 1.2 2.1 2.6 0 1.9-1.4 3-3.6 3h-3.1V9.6Zm2 2v2.3h1c.9 0 1.4-.4 1.4-1.15 0-.72-.5-1.15-1.4-1.15h-1Zm0 4.1v2.5h1.1c1 0 1.6-.47 1.6-1.25 0-.8-.6-1.25-1.6-1.25h-1.1Z"
+          fill="#ffffff"
+        />
+        <path
+          d="M19.1 7.9v2M21.1 7.9v2M19.1 20.2v2M21.1 20.2v2"
+          stroke="#ffffff"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
+      </g>
     </svg>
   );
 }

@@ -22,7 +22,7 @@ export default function HomePage() {
             </div>
 
             <h1 className="mt-5 text-4xl font-semibold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
-              A sovereign health community and wellness,{" "}
+              A sovereign health and wellness community,{" "}
               <span className="bg-gradient-to-r from-brand-500 via-brand-500 to-accent-500 bg-clip-text text-transparent">
                 all in one place.
               </span>
