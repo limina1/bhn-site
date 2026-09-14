@@ -21,7 +21,7 @@ export function SiteFooter() {
               {BRAND.tagline}
             </p>
             <p className="mt-4 max-w-md text-xs leading-relaxed text-slate-500 dark:text-slate-400">
-              Bitcoin Health Network is a community wellness network, owned by the community and
+              Bitcoin Health Network is a community health network, owned by the community and
               maintained by our team as curators. It is an informational directory only. We do not
               provide medical advice or medical services. Listings do not constitute endorsements. Users are responsible
               for evaluating providers and organizations. Bitcoin payments and pricing may involve

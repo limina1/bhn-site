@@ -5,7 +5,7 @@ export const BRAND = {
   tagline:
     "BHN is the home base for sovereign health and wellness: spaces, practitioners, tools, and communities in one place, built for people who believe health autonomy is non-negotiable.",
   // Shorter descriptor for the header / tight spaces.
-  shortDescriptor: "A community wellness network",
+  shortDescriptor: "A community health network",
   // Where the community actually lives today.
   nostrUrl: "https://primal.net/",
   contactEmail: "hello@bitcoinhealth.network",

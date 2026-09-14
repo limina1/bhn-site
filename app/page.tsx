@@ -18,7 +18,7 @@ export default function HomePage() {
           <div className="lg:col-span-7">
             <div className="chip">
               <span className="h-2 w-2 rounded-full bg-accent-500" />
-              A community wellness network · built on Bitcoin &amp; Nostr
+              A community health network · built on Bitcoin &amp; Nostr
             </div>
 
             <h1 className="mt-5 text-4xl font-semibold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
@@ -51,7 +51,7 @@ export default function HomePage() {
                   What this is
                 </div>
                 <p className="mt-2 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                  An open community wellness network to discover sovereign health and wellness
+                  An open community health network to discover sovereign health and wellness
                   spaces, practitioners, tools, and communities in one place.
                 </p>
               </div>

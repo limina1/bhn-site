@@ -99,7 +99,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/75 backdrop-blur dark:border-white/10 dark:bg-ink-950/80">
       <div className="container-page flex h-16 items-center justify-between gap-4">
         <Link href="/" className="group inline-flex items-center">
-          <Logo descriptor="A community wellness network" />
+          <Logo descriptor="A community health network" />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
