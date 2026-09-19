@@ -15,7 +15,7 @@ export const BRAND = {
   dgaUrl: "https://dreamgradacademy.com/",
   dreamgradUrl: "https://dreamgradacademy.com/", // legacy alias
   // Zaprana: sponsor. Appears as a sponsored box and a sponsored directory listing.
-  zapranaUrl: "https://zaprana.life/creator/selfishcollective",
+  zapranaUrl: "https://zaprana.life/",
   zapranaTagline: "A space for well-being and sovereignty.",
   // Reference YouTube channel surfaced on the education page (no real embeds yet).
   youtube: {

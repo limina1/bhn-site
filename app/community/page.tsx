@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Badge } from "@/components/ui/Badge";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { BRAND } from "@/lib/brand";
@@ -41,9 +42,12 @@ export default function CommunityPage() {
     <>
       <section className="container-page pb-8 pt-14 sm:pt-18">
         <div className="max-w-3xl">
-          <div className="chip">
-            <span className="h-2 w-2 rounded-full bg-nostr-500" />
-            Discussions · invite-only on Nostr
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="chip">
+              <span className="h-2 w-2 rounded-full bg-nostr-500" />
+              Discussions · invite-only on Nostr
+            </div>
+            <Badge tone="accent">Beta</Badge>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
             Sound money{" "}
@@ -54,7 +58,8 @@ export default function CommunityPage() {
           <p className="mt-4 text-base leading-relaxed text-slate-600 dark:text-slate-300 sm:text-lg">
             Open questions the {BRAND.shortName} community works through together.
             Each has a short primer, then a live conversation on the relay.
-            Invite-only: members introduce members.
+            Invite-only: members introduce members. This is a beta feature and
+            still evolving.
           </p>
         </div>
         <div className="mt-5 max-w-3xl">

@@ -73,15 +73,6 @@ export function SiteFooter() {
                 <IconNostr className="h-4 w-4" />
                 Join community
               </Link>
-              <Link
-                href={`mailto:${BRAND.contactEmail}`}
-                className="text-sm font-medium text-slate-900 underline decoration-slate-200 underline-offset-4 transition-colors hover:decoration-brand-400 dark:text-slate-200 dark:decoration-white/20"
-              >
-                {BRAND.contactEmail}
-              </Link>
-              <div className="text-xs text-slate-500 dark:text-slate-500">
-                Placeholder email. Replace with your real contact address.
-              </div>
             </div>
           </div>
         </div>
