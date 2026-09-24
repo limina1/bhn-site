@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FOOTER_LINKS } from "@/lib/nav";
 import { BRAND } from "@/lib/brand";
 import { IconNostr } from "@/components/ui/Icon";
-import { LogoMark } from "@/components/ui/Logo";
+import { LogoMark, BetaTag } from "@/components/ui/Logo";
 
 export function SiteFooter() {
   return (
@@ -13,8 +13,11 @@ export function SiteFooter() {
           <div className="md:col-span-5">
             <div className="flex items-center gap-3">
               <LogoMark className="h-8 w-8" />
-              <div className="text-sm font-semibold text-slate-900 dark:text-white">
-                {BRAND.name}
+              <div className="flex items-center gap-1.5">
+                <div className="text-sm font-semibold text-slate-900 dark:text-white">
+                  {BRAND.name}
+                </div>
+                <BetaTag />
               </div>
             </div>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-slate-600 dark:text-slate-300">

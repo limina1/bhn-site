@@ -49,15 +49,31 @@ export function LogoMark({ className, ...props }: SVGProps<SVGSVGElement>) {
   );
 }
 
+/** Small "the whole site is early" marker. Used next to the wordmark, not repeated everywhere. */
+export function BetaTag({ className }: { className?: string }) {
+  return (
+    <span
+      className={cx(
+        "inline-flex items-center rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[10px] font-semibold uppercase leading-none tracking-wide text-amber-700 dark:border-amber-400/30 dark:bg-amber-500/10 dark:text-amber-300",
+        className
+      )}
+    >
+      Beta
+    </span>
+  );
+}
+
 /** Full lockup: mark + wordmark. `compact` hides the descriptor line. */
 export function Logo({
   className,
   descriptor,
-  markClassName
+  markClassName,
+  beta = true
 }: {
   className?: string;
   descriptor?: string;
   markClassName?: string;
+  beta?: boolean;
 }) {
   return (
     <span className={cx("inline-flex items-center gap-3", className)}>
@@ -68,8 +84,11 @@ export function Logo({
         )}
       />
       <span className="leading-tight">
-        <span className="block text-sm font-semibold tracking-tight text-slate-900 dark:text-white">
-          Bitcoin Health Network
+        <span className="flex items-center gap-1.5">
+          <span className="text-sm font-semibold tracking-tight text-slate-900 dark:text-white">
+            Bitcoin Health Network
+          </span>
+          {beta ? <BetaTag /> : null}
         </span>
         {descriptor ? (
           <span className="hidden text-xs text-slate-600 dark:text-slate-400 sm:block">
